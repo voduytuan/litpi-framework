@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Tmp]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Tmp Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Tmp &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New Tmp]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Tmp Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Tmp &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update Tmp]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Tmp Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Tmp &raquo; Update]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Name]]></lines>
+	<lines name="labelType" descr=""><![CDATA[Type]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[Display Order]]></lines>
+	<lines name="labelText" descr=""><![CDATA[Text]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[IP Address]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Date Created]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Date Modified]]></lines>
+	
+	
+	<lines name="errNameRequired" descr=""><![CDATA[Name is required.]]></lines>
+	<lines name="errTypeMustGreaterThanZero" descr=""><![CDATA[Type must be greater than zero.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Tmp]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Tmp had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Tmp]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Tmp had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Tmp not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Tmp with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Tmp with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

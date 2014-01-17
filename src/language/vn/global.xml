@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+  <lines name="submit" descr=""><![CDATA[Gởi]]></lines>
+  <lines name="dateFormat" descr=""><![CDATA[d/m/Y]]></lines>
+  <lines name="dateFormatSmarty" descr=""><![CDATA[%H:%M, %d/%m/%Y]]></lines>
+  <lines name="hi" descr=""><![CDATA[Chào]]></lines>
+  <lines name="username" descr=""><![CDATA[Username]]></lines>
+  <lines name="password" descr=""><![CDATA[Mật khẩu]]></lines>
+  <lines name="yes" descr=""><![CDATA[Có]]></lines>
+  <lines name="no" descr=""><![CDATA[Không]]></lines>
+  <lines name="usernotfound" descr=""><![CDATA[Không tìm thấy thông tin thành viên]]></lines>
+  <lines name="pagenotfound" descr=""><![CDATA[Không tìm thấy trang bạn cần xem]]></lines>
+  <lines name="notpermissiontitle" descr=""><![CDATA[Không tìm thấy trang bạn chọn.]]></lines>
+
+
+  <lines name="redirectClickHere" descr=""><![CDATA[Nhấn vào đây]]></lines>
+  <lines name="redirectDontWantWait" descr=""><![CDATA[Nếu bạn không muốn đợi.]]></lines>
+  <lines name="redirectDefaultMsg" descr=""><![CDATA[Đang chuyển trang...]]></lines>
+
+  <lines name="pageTitlePrefix" descr=""><![CDATA[ - Trang ]]></lines>
+  <lines name="pageDescriptionPrefix" descr=""><![CDATA[ Nội dung trang ]]></lines>
+  <lines name="navpageFirst" descr=""><![CDATA[Trang đầu tiên]]></lines>
+  <lines name="navpageFirstTooltip" descr=""><![CDATA[Về trang đầu tiên]]></lines>
+  <lines name="navpageLast" descr=""><![CDATA[Trang cuối]]></lines>
+  <lines name="navpageLastTooltip" descr=""><![CDATA[Tới trang cuối]]></lines>
+  <lines name="navpagePrevious" descr=""><![CDATA[Trước]]></lines>
+  <lines name="navpagePreviousTooltip" descr=""><![CDATA[Về trang trước]]></lines>
+  <lines name="navpageNext" descr=""><![CDATA[Trang Tiếp]]></lines>
+  <lines name="navpageNextTooltip" descr=""><![CDATA[Tới trang tiếp theo]]></lines>
+  <lines name="navpagePageTooltip" descr=""><![CDATA[Tới trang ]]></lines>
+
+  <lines name="timeSec" descr=""><![CDATA[giây]]></lines>
+  <lines name="timeMin" descr=""><![CDATA[phút]]></lines>
+  <lines name="timeHour" descr=""><![CDATA[tiếng]]></lines>
+  <lines name="timeDay" descr=""><![CDATA[ngày]]></lines>
+  <lines name="timeWeek" descr=""><![CDATA[tuần]]></lines>
+  <lines name="timeMonth" descr=""><![CDATA[tháng]]></lines>
+  <lines name="timeYear" descr=""><![CDATA[năm]]></lines>
+  <lines name="timeAgo" descr=""><![CDATA[trước]]></lines>
+  <lines name="timeFromNow" descr=""><![CDATA[kể từ bây giờ]]></lines>
+  <lines name="timeSeveralSec" descr=""><![CDATA[cách đây vài giây]]></lines>
+  <lines name="timePlural" descr=""><![CDATA[]]></lines>
+
+
+</data>

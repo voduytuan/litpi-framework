@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Page]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Page Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Page &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New Page]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Page Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Page &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update Page]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Page Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Page &raquo; Update]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[User ID]]></lines>
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelTitle" descr=""><![CDATA[Title]]></lines>
+	<lines name="labelContent" descr=""><![CDATA[Content]]></lines>
+	<lines name="labelHandle" descr=""><![CDATA[Handle]]></lines>
+	<lines name="labelSeotitle" descr=""><![CDATA[SEO Title]]></lines>
+	<lines name="labelSeokeyword" descr=""><![CDATA[SEO Keyword]]></lines>
+	<lines name="labelSeodescription" descr=""><![CDATA[SEO Description]]></lines>
+	<lines name="labelVisibility" descr=""><![CDATA[Visibility]]></lines>
+	<lines name="labelTemplate" descr=""><![CDATA[Template]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[IP Address]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[Display Order]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Date Created]]></lines>
+	<lines name="labelDatepublished" descr=""><![CDATA[Date Published]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Date Modified]]></lines>
+	
+	
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Page]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Page had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Page]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Page had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Page not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Page with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Page with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

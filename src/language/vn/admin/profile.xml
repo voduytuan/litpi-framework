@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="email" descr=""><![CDATA[Email]]></lines>
+	<lines name="fullname" descr=""><![CDATA[Full Name]]></lines>
+	<lines name="phone1" descr=""><![CDATA[Phone]]></lines>
+	<lines name="address" descr=""><![CDATA[Address]]></lines>
+	<lines name="gender" descr=""><![CDATA[Gender]]></lines>
+	<lines name="birthday" descr=""><![CDATA[Birthday]]></lines>
+	<lines name="website" descr=""><![CDATA[Website]]></lines>
+	<lines name="bio" descr=""><![CDATA[Bio]]></lines>
+	<lines name="oldpass" descr=""><![CDATA[Old Password]]></lines>
+	<lines name="newpass1" descr=""><![CDATA[New Password]]></lines>
+	<lines name="newpass2" descr=""><![CDATA[Retype New Password]]></lines>
+
+	<lines name="errFullnameRequired" descr=""><![CDATA[Full Name too short (at least 6 characters)]]></lines>
+	<lines name="errOldpassNotvalid" descr=""><![CDATA[Old Password is not correct.]]></lines>
+	<lines name="errNewpassnotvalid" descr=""><![CDATA[Password too short (at least 6 characters)]]></lines>
+	<lines name="errNewpassnotmatch" descr=""><![CDATA[New password not match.]]></lines>
+
+	<lines name="errAvatarInvalid" descr=""><![CDATA[Image format is not valid. (Allow JPG, PNG, GIF)]]></lines>
+	<lines name="errImageUpload" descr=""><![CDATA[Error while upload image. (ERROR CODE: ###errorcode###)]]></lines>
+	<lines name="errGenderInvalid" descr=""><![CDATA[Gender is not valid]]></lines>
+	<lines name="errBirthdayFormat" descr=""><![CDATA[Birthday format is not valid. (Format: DD/MM/YYYY)]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Update successfully.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating.]]></lines>
+
+	<lines name="editavatar" descr=""><![CDATA[Edit Avatar]]></lines>
+	<lines name="removeavatar" descr=""><![CDATA[Delete]]></lines>
+	<lines name="avatarUploadTitle" descr=""><![CDATA[UPLOAD IMAGE]]></lines>
+	<lines name="avatarUploadErrJsType" descr=""><![CDATA[Image format is not valid (Allow: JPG, PNG, GIF)]]></lines>
+	<lines name="avatarEditorOriginal" descr=""><![CDATA[Original Photo]]></lines>
+	<lines name="avatarEditorHelp" descr=""><![CDATA[Select image area for your avatar.]]></lines>
+	<lines name="avatarEditorPreview" descr=""><![CDATA[Preview]]></lines>
+	<lines name="avatarEditorSave" descr=""><![CDATA[Save]]></lines>
+
+	<lines name="warnPasswordNotSetForOAuthLogin" descr=""><![CDATA[You had been logged in from another service (Facebook, Google, Yahoo..), so you need to set password for your account first. ]]></lines>
+	<lines name="errEmailRequireForSetPassword" descr=""><![CDATA[You need to set email for your account before setting new password. Contact administrator for more information.]]></lines>
+
+	<lines name="pageTitle" descr=""><![CDATA[Edit Profile]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[profile, update, change]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[Edit your profile]]></lines>
+
+</data>

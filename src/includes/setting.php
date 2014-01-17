@@ -1,0 +1,124 @@
+<?php
+
+    //format
+    //$setting['group']['entry'] = value;
+    $setting['site']['contactEmail'] = 'tuanmaster2012@gmail.com';
+    $setting['site']['heading'] = 'Litpi';
+    $setting['site']['defaultPageTitle'] = 'Litpi Framework';
+    $setting['site']['defaultPageKeyword'] = '';
+    $setting['site']['defaultPageDescription'] = '';
+    $setting['site']['sessionExcludeController'] = array();	//array chua cac controller se khong cap nhat vao session table (thuong la cac request ajax hang loat)
+
+    $setting['site']['apcUserCacheTimetolive'] = 3600;	//seconds, time to renew user cache data in data store in apc
+    $setting['site']['abuseSpamExpired'] = 10;
+    $setting['site']['smartyCompileCheck'] = true;	//true if development phase, false when go to live production
+    $setting['site']['jsversion'] = '1';	//true if using cache, false if not
+    $setting['site']['cssversion'] = '1';	//true if using cache, false if not
+    $setting['site']['enableMobileWebRedirect'] = false;	//true if auto redirect url when user using mobile or tablet to m.domain.com
+    $setting['site']['googleanalyticid'] = '';  //setup your google analytic ID, ex: UA-12345678-1
+
+    $setting['cache']['enable'] = true;	//true if using cache, false if not
+    $setting['cache']['site'] = 'uploads/cache/';	//root directory of cache
+
+    $setting['mail']['usingAmazonses'] = false;	//neu true thi su dung co che send mail cua amazon, ket hop voi amazon api key o setting o duoi de send, neu false thi su dung co che mac dinh de goi mail
+    $setting['mail']['dateFormat'] = 'F j, Y, g:i a';
+    $setting['mail']['fromName'] = 'Webmaster';
+    $setting['mail']['fromEmail'] = 'noreply@example.com';
+    $setting['mail']['toName'] = 'Webmaster';
+    $setting['mail']['toEmail'] = 'admin@example.com';
+    $setting['amazon']['publickey'] = '';
+    $setting['amazon']['privatekey'] = '';
+    $setting['smtp']['enable'] = true;  //SMTP TRUE also Will be override by Amazon SES
+    $setting['smtp']['host'] = 'smtp.gmail.com';
+    $setting['smtp']['username'] = '';
+    $setting['smtp']['password'] = '';
+
+    $setting['avatar']['imageDirectory'] = 'uploads/avatar/';
+    $setting['avatar']['imageDirectoryFromResourceHost'] = ''; //tuy thuoc vao cau hinh cua resourcehost ma co chi dinh thu muc hay khong
+    $setting['avatar']['imageMaxWidth'] = '640';
+    $setting['avatar']['imageMaxHeight'] = '640';
+    $setting['avatar']['imageMediumWidth'] = '200';
+    $setting['avatar']['imageMediumHeight'] = '200';
+    $setting['avatar']['imageThumbWidth'] = '50';
+    $setting['avatar']['imageThumbHeight'] = '50';
+    $setting['avatar']['imageQuality'] = '95';
+    $setting['avatar']['imageMaxSize'] = '5242880';	//unit in Byte
+
+    $setting['resourcehost']['static'] = $conf['rooturl'] . 'templates/default/';
+    $setting['resourcehost']['static_https'] = $conf['rooturl'] . 'templates/default/';
+
+    $setting['region'] = array(
+        '82' => 'An Giang',
+        '102' => 'Bà Rịa - Vũng Tàu',
+        '106' => 'Bắc Ninh',
+        '103' => 'Bắc Giang',
+        '104' => 'Bắc Kạn',
+        '105' => 'Bạc Liêu',
+        '107' => 'Bến Tre',
+        '109' => 'Bình Dương',
+        '108' => 'Bình Định',
+        '110' => 'Bình Phước',
+        '111' => 'Bình Thuận',
+        '161' => 'Bình Trị Thiên',
+        '81' => 'Cà Mau',
+        '7' => 'Cần Thơ',
+        '112' => 'Cao Bằng',
+        '162' => 'Cửu Long',
+        '9' => 'Đà Nẵng',
+        '6' => 'Đắc Lắk',
+        '113' => 'Đắc Nông',
+        '114' => 'Điện Biên',
+        '8' => 'Đồng Nai',
+        '115' => 'Đồng Tháp',
+        '116' => 'Gia Lai',
+        '201' => 'Hà Bắc',
+        '121' => 'Hải Dương',
+        '117' => 'Hà Giang',
+        '118' => 'Hà Nam',
+        '159' => 'Hà Nam Ninh',
+        '5' => 'Hà Nội',
+        '119' => 'Hà Tây',
+        '120' => 'Hà Tĩnh',
+        '158' => 'Hải Hưng',
+        '122' => 'Hậu Giang',
+        '101' => 'Hải Phòng',
+        '123' => 'Hoà Bình',
+        '124' => 'Hưng Yên',
+        '125' => 'Khánh Hoà',
+        '126' => 'Kiên Giang',
+        '157' => 'Khác',
+        '127' => 'Kon Tum',
+        '128' => 'Lai Châu',
+        '130' => 'Lạng Sơn',
+        '129' => 'Lâm Đồng',
+        '131' => 'Lào Cai',
+        '132' => 'Long An',
+        '133' => 'Nam Định',
+        '134' => 'Nghệ An',
+        '160' => 'Nghĩa Bình',
+        '135' => 'Ninh Bình',
+        '136' => 'Ninh Thuận',
+        '137' => 'Phú Thọ',
+        '138' => 'Phú Yên',
+        '139' => 'Quảng Bình',
+        '140' => 'Quảng Nam',
+        '141' => 'Quảng Ngãi',
+        '142' => 'Quảng Ninh',
+        '143' => 'Quảng Trị',
+        '144' => 'Sóc Trăng',
+        '145' => 'Sơn La',
+        '146' => 'Tây Ninh',
+        '147' => 'Thái Bình',
+        '148' => 'Thái Nguyên',
+        '149' => 'Thanh Hoá',
+        '150' => 'Thừa Thiên Huế',
+        '151' => 'Tiền Giang',
+        '3' => 'TP.Hồ Chí Minh',
+        '152' => 'Trà Vinh',
+        '153' => 'Tuyên Quang',
+        '154' => 'Vĩnh Long',
+        '155' => 'Vĩnh Phúc',
+        '156' => 'Yên Bái'
+    );
+
+    $setting['regionDefault'] = 3; //Ho Chi Minh
