@@ -36,7 +36,7 @@
         	<input type="button" onclick="formfilterAdd()" class="btn btn-sm btn-info inline" value="Add Filter" />
         </div>
       </div><!-- /btn-group -->
-      <input type="text" id="fkeywordfilter" class="form-control filter-indicator" value="{$formData.keyword}" placeholder="Start typing to search in {{SEARCHABLETEXT_INPUT_PLACEHOLDER}}..." />
+      <input type="text" id="fkeywordfilter" class="form-control filter-indicator" value="{$formData.fkeyword}" placeholder="Start typing to search in {{SEARCHABLETEXT_INPUT_PLACEHOLDER}}..." />
     </div><!-- /input-group -->
 </div>
 
