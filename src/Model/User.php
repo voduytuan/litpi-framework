@@ -133,12 +133,16 @@ class User extends BaseModel
             if (isset($_COOKIE['myHashing']) && strlen($_COOKIE['myHashing']) > 0) {
                 $cookieRememberMeInfo = \Vendor\Litpi\ViephpHashing::cookiehasingParser($_COOKIE['myHashing']);
 
-                $this->getData($cookieRememberMeInfo['userid']);
+                $myUserTmp = new \Model\User();
+                $myUserTmp->getData($cookieRememberMeInfo['userid']);
 
                 if (\Vendor\Litpi\ViephpHashing::authenticateCookiehashing(
                     $cookieRememberMeInfo['shortPasswordString'],
-                    $this->password
+                    $myUserTmp->password
                 )) {
+                    
+                    $this->cloneObject($myUserTmp);
+                    
                     session_regenerate_id(true);
 
                     ////////////////////////////////////////////////////////////////////////////////////
