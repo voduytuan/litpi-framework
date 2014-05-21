@@ -63,7 +63,7 @@ class {{MODULE}} extends {{MODULE_BASECLASS}}
             (int)$this->{{PRIMARY_PROPERTY}}
         ));
 
-        if ($stmt) {
+        if ($stmt->rowCount() > 0) {
             return true;
         } else {
             return false;
