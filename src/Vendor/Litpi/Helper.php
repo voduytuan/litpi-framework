@@ -904,18 +904,18 @@ class Helper
         if ($handle = opendir($directory)) {
             while (false !== ($file = readdir($handle))) {
                 if ($file != "." && $file != "..") {
-                    if (is_dir($directory. "/" . $file)) {
+                    if (is_dir($directory. DIRECTORY_SEPARATOR . $file)) {
                         if ($recursive) {
                             $array_items = array_merge(
                                 $array_items,
-                                self::directoryToArray($directory. "/" . $file, $recursive)
+                                self::directoryToArray($directory. DIRECTORY_SEPARATOR . $file, $recursive)
                             );
                         }
-                        $file = $directory . "/" . $file;
-                        $array_items[] = preg_replace("/\/\//si", "/", $file);
+                        $file = $directory . DIRECTORY_SEPARATOR . $file;
+                        $array_items[] = preg_replace("/\/\//si", DIRECTORY_SEPARATOR, $file);
                     } else {
-                        $file = $directory . "/" . $file;
-                        $array_items[] = preg_replace("/\/\//si", "/", $file);
+                        $file = $directory . DIRECTORY_SEPARATOR . $file;
+                        $array_items[] = preg_replace("/\/\//si", DIRECTORY_SEPARATOR, $file);
                     }
                 }
             }
