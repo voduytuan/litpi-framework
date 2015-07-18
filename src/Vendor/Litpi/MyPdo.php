@@ -29,8 +29,13 @@ class MyPdo extends PDO
         }
 
         $stmt = $this->prepare($sql);
-        $stmt->execute($params);
-
+        try {
+            $stmt->execute($params);
+        } catch (\PDOException $ex) {
+            // writing error log
+            //print_r($stmt->errorInfo());
+        }
+        
         //profiling the query
         if (!is_null($GLOBALS['pqpProfiler'])) {
             $GLOBALS['pqpProfiler']->querydebug->logQuery($sql, $params, $start);
